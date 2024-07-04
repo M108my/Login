@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/nombreEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:padding="12dp"
+        android:hint="Nuevo nombre"
+        android:layout_marginBottom="40dp"/>
+
+    <Button
+        android:id="@+id/actualizarNombreButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:text="Actualizar nombre"
+        android:layout_marginBottom="40dp"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/emailEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:padding="12dp"
+        android:hint="Nuevo Email"
+        android:layout_marginBottom="40dp" />
+
+    <Button
+        android:id="@+id/actualizarEmailButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:text="Actualizar Email"
+        android:layout_marginBottom="40dp"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/regresarButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:text="Regresar"
+        android:layout_marginBottom="40dp"
+        android:textColor="@color/black"/>
+</LinearLayout>

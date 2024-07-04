@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/emailEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:padding="12dp"
+        android:hint="Email"
+        android:inputType="textEmailSubject"
+        android:layout_marginBottom="40dp"/>
+
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:padding="12dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:layout_marginBottom="40dp"/>
+
+    <Button
+        android:id="@+id/accederButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Acceder"
+        android:textColor="@color/black"/>
+</LinearLayout>
